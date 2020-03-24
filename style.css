@@ -1,0 +1,296 @@
+/* set defaults */
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.test {
+  height: 200vh;
+}
+.pre-nav {
+  height: 45%;
+  background: #d71920 !important;
+  color: white;
+}
+.pre-nav a {
+  color: white !important ;
+  text-decoration: none !important ;
+}
+.pre-nav a :hover {
+  text-decoration: none;
+}
+.nav-bold-head {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.nav-bold-head:hover {
+  text-decoration: none;
+  color: black;
+}
+.navbar li {
+  margin: auto 1rem;
+  font-weight: bold;
+}
+.sign-in {
+  border-left: 1px solid rgb(209, 209, 209);
+  padding-left: 2.3rem;
+}
+.free-trial {
+  background: rgba(180, 15, 97, 0.897);
+  width: auto;
+  margin: 0 auto;
+  border-radius: 2rem;
+  padding: 0.4rem 0.8rem;
+  border-style: none;
+  border: none;
+}
+.free-trial:hover {
+  background: #3e2559;
+  transition: ease-in-out 0.2s;
+  border: none;
+}
+#second-navbar-id {
+  transition: 0.2s;
+}
+.scroll-top-effect {
+  height: 10vh !important;
+  background-color: purple;
+  transition: 0.2s;
+  -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.199);
+  -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.199);
+  box-shadow: 0 8px 36px -6px rgba(0, 0, 0, 0.199);
+}
+.jumbotron {
+  height: 52vh;
+  background: #885a9f !important ;
+  color: white;
+}
+.jumbo-container {
+  padding-top: 140px;
+}
+.jumbo-container p {
+  border-left: 1px solid;
+  width: 80%;
+}
+.jumbotron p {
+  padding-left: 6rem !important;
+  font-size: 1rem;
+  color: rgb(218, 216, 219);
+}
+.sticky-top {
+  height: 15vh;
+}
+
+.provider-selection {
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  grid-column-gap: 3px solid black;
+  height: auto;
+}
+.card {
+  border: none !important;
+}
+.card img {
+  margin: 0 auto;
+  padding-top: 0.7rem;
+  display: block;
+}
+.azure-card {
+  border-left: 1px solid rgb(218, 212, 212) !important ;
+  border-right: 1px solid rgb(218, 212, 212) !important ;
+}
+
+.cta {
+  color: white;
+  text-decoration: none !important ;
+  padding: 0;
+  width: auto;
+}
+.cta:hover {
+  color: white;
+  text-decoration: none !important ;
+}
+.card button {
+  background: rgba(180, 15, 97, 0.897);
+  width: auto;
+  margin: 0 auto;
+  border-radius: 2rem;
+  padding: 0.8rem;
+  border: none;
+}
+.card button:hover {
+  background: #3e2559;
+  transition: ease-in-out 0.2s;
+  border: none;
+}
+.card a {
+  white-space: nowrap;
+  margin: 1rem;
+}
+.empty {
+  cursor: default;
+}
+
+/* heading */
+
+.heading {
+  height: 40vh;
+}
+.heading button {
+  background: rgba(180, 15, 97, 0.897);
+  width: auto;
+  margin: 0 auto;
+  border-radius: 2rem;
+  padding: 0.8rem 2.5rem;
+  border: none;
+}
+.heading button:hover {
+  background: #3e2559;
+  transition: ease-in-out 0.2s;
+  border: none;
+}
+
+/* lists */
+
+.service-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px 10px;
+  padding: 0px 30px;
+  width: 65%;
+  margin: auto;
+}
+.service-link {
+  list-style-type: none;
+}
+.service-link h3 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.service-link p {
+  font-size: 0.9rem;
+}
+.service-link a {
+  color: black;
+}
+.service-link a:hover {
+  color: black;
+}
+
+/* footer */
+#footer-button {
+  height: 65vh;
+  padding: 12rem 0rem 15rem;
+  background: url(/images/12345.PNG) no-repeat center;
+  background-size: 100% auto;
+
+  text-align: center;
+}
+.footer-v2 strong {
+  color: rgba(180, 15, 97, 0.897);
+}
+.footer-v2-btn a {
+  color: white;
+}
+.small3 {
+  overflow-x: hidden;
+}
+
+.small3 {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.grid-section button {
+  background: rgba(180, 15, 97, 0.897);
+  width: 30%;
+
+  margin: 0 auto;
+  border-radius: 2rem;
+  padding: 1rem 2.5rem;
+
+  border: none;
+}
+
+.grid-section button:hover {
+  background: #3e2559;
+  transition: ease-in-out 0.2s;
+  border: none;
+}
+/* media and copy footer */
+.post-footer-hr {
+  width: 95%;
+  margin: 0rem auto 6rem auto;
+}
+
+.footer-wrapper {
+  width: 55%;
+  margin: auto;
+  padding-bottom: 7rem;
+  font-size: 0.9rem;
+}
+.social {
+  height: auto;
+}
+.social a {
+  display: inline-block;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin: auto 0.2rem;
+  border-radius: 20px;
+}
+
+.in {
+  background: url("https://www.cloudconformity.com/assets/icons/icon-in-0332cf9e972544110e4d921c5a4cae4f959f26d39cf05d956c0e840f45d2a635.svg")
+    no-repeat center;
+
+  background-color: rgba(107, 124, 148, 0.5);
+}
+.yt {
+  background: url("https://www.cloudconformity.com/assets/icons/icon-yt-8c425e6767c044539a76f732d7e181dc68d081050ab8172db99d9cb32df8caba.svg")
+    no-repeat center;
+  background-color: rgba(107, 124, 148, 0.5);
+}
+.tw {
+  background: url("https://www.cloudconformity.com/assets/icons/icon-tw-6cb824fde9577feb51e09ae9b8e7a8cd323d544e0f0b2b381431dbaa7e77d3c5.svg")
+    no-repeat center;
+  background-color: rgba(107, 124, 148, 0.5);
+}
+
+.gh {
+  background: url("https://www.cloudconformity.com/assets/icons/icon-github-47191b44f0e1b586412e91032d97929fee5e84d3488fba8469c04a60baefa290.svg")
+    no-repeat center;
+  background-color: rgba(107, 124, 148, 0.5);
+}
+.ending-links a {
+  display: block;
+  color: #b0bac9;
+  text-decoration: underline;
+}
+.ending-links a:hover {
+  color: #74849b;
+  transition: ease-in-out 0.5s;
+}
+.ending-headings {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #6b7c94;
+  margin-bottom: 0.8rem;
+}
+
+.sticky-chat {
+  position: fixed;
+  bottom: 15px;
+  right: 12px;
+  height: 67px;
+}
